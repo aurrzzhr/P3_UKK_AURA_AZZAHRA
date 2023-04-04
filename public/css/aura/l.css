@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #B3F8FE;
+}
+
+.side{
+    width: 550px;
+    height: 649px;
+    align-items: center;
+}
+
+.side img{
+    padding-left: 7%;
+    margin-top: 10%;
+    width: 500px;
+    height: 500px;
+}
+
+.container{
+    display: flex;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 685px;
+    height: 520px;
+    align-items: center;
+    background: linear-gradient(174.53deg, #797EDA -57.39%, rgba(64, 152, 203, 0.447117) 37.94%, rgba(19, 128, 190, 0) 128.34%);
+    border-radius: 75px;
+    margin-top: 68px;
+    margin-left: 50px;
+}
+
+.form h2{
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 75px;
+}
+
+.box{
+    padding: 12px;
+    width: 65%;
+    margin: 13px;
+    background-color: rgb(247, 222, 201);
+    border: 1px solid  rgb(72, 168, 224);
+    outline: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: #ffffffda;
+}
+
+#submit{
+    padding: 12px 30px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: #B3F8FE;
+    background: linear-gradient(88.32deg, #F2D781 -34.59%, rgba(202, 176, 94, 0.427206) 104.39%, rgba(242, 215, 129, 0) 201.86%);
+    border: 1px solid rgba(0, 0, 0, 0.01);
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color: #eed877;
+}
+
+/* icon */
+.form__input{
+    padding: 12px;
+    width: 65%;
+    background-color: rgb(247, 222, 201);
+    border: 1px solid  rgb(74, 169, 224);;
+    outline: none;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
+.form__icon{
+    position: fixed;
+    font-size: 1.5rem;
+    color: gray;
+    margin-top: 241px;
+    margin-left: 31%;
+    transition: color .3s ease;
+}
+
+.form__icon--hide{
+    display: flex;
+    font-size: 1.2rem;
+    top: 20%;
+}
